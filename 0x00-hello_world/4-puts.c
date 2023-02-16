@@ -10,12 +10,12 @@
 
 int main(void)
 {
-        char str[55];
+	 char str[55];
 
-        strcpy(str, "\"Programming is like building a multilingual puzzle");
+	strcpy(str, "\"Programming is like building a multilingual puzzle");
 
-        puts(str);
+	puts(str);
 
-        return (0);
+	return (0);
 }
 
