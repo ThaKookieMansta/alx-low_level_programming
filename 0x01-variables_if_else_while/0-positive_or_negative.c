@@ -21,18 +21,17 @@ int main(void)
         /* your code goes there */
         if (n < 0)
         {
-                char m[100] = "is negative";
+                printf("%d is negative\n", n);
         }
         else if (n == 0)
         {
-                char m[100] = "is zero";
+                printf("%d is zero\n", n);
         }
         else
         {
-                char m[100] = "is positive";
+                printf("%d is positive\n", n);
         }
 
-        printf("%d %s \n", n, m);
 
         return (0);
 }
