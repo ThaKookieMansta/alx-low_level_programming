@@ -27,5 +27,6 @@ int main(void)
 			printf("%ld, ", f[n]);
 		}
 	}
+	return (0)
 
 }
