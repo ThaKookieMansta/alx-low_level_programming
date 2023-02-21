@@ -10,17 +10,21 @@ int main(void)
 {
 	int f, t, i, total;
 
-	total = 0;
-	
+	f = 0;
+	t = 0;
 	for (i = 0; i < 1024; i++)
 	{
-		if (i % 5 == 0 || i % 3 == 0)
+		if (i % 5 == 0)
 		{
-			total += i;
+			f += i;
 		}
-		
+		if (i % 3 == 0)
+		{
+			t += i;
+		}
+
 	}
-	
+	total = t + f;
 	printf("%d\n", total);
-	return (0);
+	return(0);
 }
