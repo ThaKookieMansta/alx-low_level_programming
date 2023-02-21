@@ -1,14 +1,19 @@
 #include "main.h"
-
+/**
+ * times_table - prints the Multiplication table.
+ * Description: prints the Multiplication table.
+ * Return: prints the Multiplication table.
+ */
 void times_table(void)
 {
 	int l, w, val;
+
 	for (l = 0; l < 10; l++)
 	{
 		for (w = 0; w < 10; w++)
 		{
 			val = l * w;
-			
+
 			if ((val / 10) == 0)
 			{
 				if (w != 0)
@@ -16,7 +21,7 @@ void times_table(void)
 					_putchar(' ');
 				}
 				_putchar(val + '0');
-				
+
 				if (w == 9)
 				{
 					continue;

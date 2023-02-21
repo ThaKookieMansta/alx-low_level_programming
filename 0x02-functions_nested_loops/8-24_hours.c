@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * jack_bauer - Prints the time in 24hr format like in 24.
+ * Description: Prints the time in 24hr format like in 24.
+ * Return: Prints the time in 24hr format like in 24.
+ */
 void jack_bauer(void)
 {
 	int hr, mn;

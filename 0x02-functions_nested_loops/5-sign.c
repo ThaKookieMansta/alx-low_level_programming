@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * print_sign - Prints the sign of a number.
+ * @n: The number inputted.
+ * Description: Checks whether the number is +ve or -ve.
+ * Return: Returns 1 for +v, 0 for 0  and -1 for -ve.
+ */
 
 int print_sign(int n)
 {
