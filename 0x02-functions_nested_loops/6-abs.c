@@ -1,5 +1,5 @@
 /**
- * abs - computes the absolute value of a number.
+ * _abs - computes the absolute value of a number.
  * @n: The number inputted.
  * Description: Computes the absolute value of a number.
  * Return: The absolute value of the number.
