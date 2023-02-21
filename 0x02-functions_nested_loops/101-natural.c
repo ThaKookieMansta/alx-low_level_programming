@@ -17,10 +17,9 @@ int main(void)
 		if ((i % 5) == 0 || (i % 3) == 0)
 		{
 			total += i;
-		}
-		
+		}	
 	}
-	
+
 	printf("%d\n", total);
 	return (0);
 }
