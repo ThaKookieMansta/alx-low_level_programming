@@ -8,7 +8,7 @@
 int main(void)
 {
 	int n;
-	long int f[50];
+	int f[50];
 
 	f[0] = 1;
 	f[1] = 2;
