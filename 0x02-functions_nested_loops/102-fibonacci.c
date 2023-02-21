@@ -12,7 +12,7 @@ int main(void)
 
 	f[0] = 1;
 	f[1] = 2;
-	printf("%ld, %ld,", f[0], f[1]);
+	printf("%ld, %ld, ", f[0], f[1]);
 
 	for (n = 2; n < 50; n++)
 	{
