@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_square - draws a square.
- * @size: This determines the size of the square.
- * Description: This function draws a square of a certain size.
+ * print_triangle - draws a triangle.
+ * @size: This determines the size of the triangle.
+ * Description: This function draws a triangle of a certain size.
  * Return: No return, the function is void.
  */
 
