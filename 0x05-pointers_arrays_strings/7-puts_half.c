@@ -41,6 +41,11 @@ void puts_half(char *str)
 	{
 		_putchar(str[n]);
 
+		if (str[n] == '\0')
+		{
+			i++;
+		}
+
 	}
 	_putchar('\n');
 
