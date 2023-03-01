@@ -15,9 +15,10 @@ void print_buffer(char *b, int size)
 	k = 0;
 
 	if (size <= 0)
+	{
 		printf("\n");
 		return;
-
+	}
 	while (k < size)
 	{
 		j = size - k < 10 ? size - k : 10;
