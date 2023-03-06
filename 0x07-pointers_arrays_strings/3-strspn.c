@@ -13,15 +13,17 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s)
 	{
 		j = 0;
-		/*We set up the loop to go through every char in accept so that we compare
-		it to the char in s.*/
+		/*
+		*We set up the loop to go through every char in accept so that we compare
+		*it to the char in s.
+		*/
 		while (*accept)
 		{
 			if (*accept == *s)
 			{
 				i++;
 				j = 1;
-				
+
 			}
 			accept++;
 		}

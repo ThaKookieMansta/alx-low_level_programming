@@ -1,6 +1,7 @@
 #include <stddef.h>
 /**
- * _strchr - Returns a pointer to the first occurrence of the character c in the string s.
+ * _strchr - Returns a pointer to the first occurrence of the character c
+ * in the string s.
  * @s: The string.
  * @c: The Character
  * Return: The pointer.

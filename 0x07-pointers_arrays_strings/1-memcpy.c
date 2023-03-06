@@ -1,8 +1,8 @@
 /**
- * _memcpy - Copies memory area..
+ * _memcpy - Copies memory area.
  * @n: The number of bytes.
  * @src: The source of memory
- * @dest: The destination. 
+ * @dest: The destination.
  * Return: The pointer p.
  */
 
