@@ -1,0 +1,1 @@
+# This directory has the static libraries for a few functions we wrote before.
