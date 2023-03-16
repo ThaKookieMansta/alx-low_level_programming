@@ -9,19 +9,31 @@
  */
 int main(int argc, char **argv)
 {
-	int num1, num2, answer;
+
+	unsigned long answer, num1, num2;
+	int i, j;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	else
+	
+	for (i = 1; i < argc ; i++)
 	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (argv[i][j] < 48 || argv[i][j] > 57)
+			{
+				printf("Error\n");
+				exit(98);
+			}
+		}
+	}
+
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
 		answer = num1 * num2;
-		printf("%d\n", answer);
+		printf("%ld\n", answer);
 		return (0);
-	}
 }
