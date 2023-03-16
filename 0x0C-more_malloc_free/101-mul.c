@@ -1,5 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Check the code
@@ -18,7 +17,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(98);
 	}
-	
+
 	for (i = 1; i < argc ; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
@@ -31,9 +30,9 @@ int main(int argc, char **argv)
 		}
 	}
 
-		num1 = atoi(argv[1]);
-		num2 = atoi(argv[2]);
-		answer = num1 * num2;
-		printf("%ld\n", answer);
-		return (0);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	answer = num1 * num2;
+	printf("%lu\n", answer);
+	return (0);
 }
