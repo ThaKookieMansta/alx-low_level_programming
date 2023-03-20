@@ -39,6 +39,6 @@ Remember to replace the output file with your previously set output filename.
 
 
 
-#License
+# License
 
 For use within ALX and the Checker.
