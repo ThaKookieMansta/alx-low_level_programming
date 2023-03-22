@@ -1,20 +1,20 @@
 # 0x0F-function_pointers
 
-We have the code manual for the project on Function Pointers.  
+We have the code manual for the project on Function Pointers.
 
 ## Usage
 
-To use the following programs use the following command to compile.  
+To use the following programs use the following command to compile.
 
 ```commandline
 $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 [c-file] [c-function-file] -o [output-file]
 ```
 
-Remember to replace the [c-file] and [c-function-file] with their respecive filenames and the [output-file] with a valid output name.  
+Remember to replace the [c-file] and [c-function-file] with their respecive filenames and the [output-file] with a valid output name.
 
 ## Run
 
-To run the output files run the following command on your terminal.  
+To run the output files run the following command on your terminal.
 
 ```commandline
 $ ./[output-file]
