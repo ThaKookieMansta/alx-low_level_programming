@@ -11,13 +11,11 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int flips = 0;
 	unsigned long int x = (n ^ m);
-	unsigned long int bitMax = 0x01;
 
-	while (bitMax <= x)
+	while (x > 0)
 	{
-		if (bitMax & x)
-			flips++;
-		bitMax <<= 1;
+		flips += (x & 1);
+		x >> 1;
 	}
 	return (flips);
 }
