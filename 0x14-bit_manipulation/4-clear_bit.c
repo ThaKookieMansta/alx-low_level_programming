@@ -10,13 +10,13 @@
 
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int bitMax = 0x01;
+	unsigned long int bitMax = sizeof(unsigned long int) * 8;
 
-	bitMax = ~(bitMax << index);
-	if (bitMax == 0x00)
+
+	if (index >= bitMax)
 	{
 		return (-1);
 	}
-	*n &= bitMax;
+	*n &= ~(1 << index);
 	return (1);
 }
