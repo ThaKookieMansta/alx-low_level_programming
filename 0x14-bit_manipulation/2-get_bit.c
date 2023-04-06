@@ -11,20 +11,19 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned long int bitMax = 0x01;
+	unsigned long int bitMax = sizeof(unsigned long int) * 8;
 
-	bitMax <<= index;
-	if (bitMax == 0)
+	if (index >= bitMax)
 	{
 		return (-1);
 	}
 
-	if ((n & bitMax))
+	if ((n & (1 << index)) == 0)
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }
