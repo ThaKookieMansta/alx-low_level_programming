@@ -27,12 +27,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fileOpen = open(filename, O_RDONLY);
 	fileRead = read(fileOpen, fileBuffer, letters);
 	fileWrite = write(STDOUT_FILENO, fileBuffer, fileRead);
-	
-	if (fileOpen < 0 || fileRead < 0 || fileWrite < 0)
+
+	if (fileOpen == -1 || fileRead == -1 || fileWrite == -1 || fileWrite != fileRead)
 	{
 		free(fileBuffer);
 		return (0);
 	}
+
+	free(fileBuffer);
+	close(fileOpen);
 
 	return ((ssize_t)fileWrite);
 }
