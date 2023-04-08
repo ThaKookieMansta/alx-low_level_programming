@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * closeFile - A function that closes a file and prints error when closed file
