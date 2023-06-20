@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/ThaKookieMansta/zero_day/blob/master/iwin.so
-export LD_PRELOAD="$PWD/../iwin.so"
+wget -P .. https://github.com/ThaKookieMansta/zero_day/blob/master/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
